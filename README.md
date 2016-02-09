@@ -4,15 +4,15 @@
 
 About | Description
 ------------ | -------------
-Stable tag | 0.1.3
 License | GPLv2 or later
 License URI | http://www.gnu.org/licenses/gpl-2.0.html
 
 ### Description
 
 This class is a standalone S3 REST implementation for PHP 5.2.x (using CURL), that supports large file uploads and doesn�t require PEAR.
-This is fork from project https://github.com/CloudKilat/kilatstorage-s3-php-class
 
+This is fork from project https://github.com/CloudKilat/kilatstorage-s3-php-class
+as composer project, so can be easily integrated via composer
 ### Notes
 
 * Not tested yet on HTTPS endpoint.
