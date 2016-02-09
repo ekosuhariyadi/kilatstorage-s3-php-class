@@ -1,0 +1,17 @@
+{
+  "name": "codeimpact/kilatstorage-s3",
+  "description": "Fork project from https://github.com/CloudKilat/kilatstorage-s3-php-class",
+  "minimum-stability": "stable",
+  "license": "false",
+  "authors": [
+    {
+      "name": "Eko Suhariyadi",
+      "email": "eko.suhariyadi@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CodeImpact\\KilatStorageS3\\": "src/"
+    }
+  }
+}

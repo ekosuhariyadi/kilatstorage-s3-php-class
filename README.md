@@ -10,11 +10,42 @@ License URI | http://www.gnu.org/licenses/gpl-2.0.html
 
 ### Description
 
-This class is a standalone S3 REST implementation for PHP 5.2.x (using CURL), that supports large file uploads and doesn’t require PEAR.
+This class is a standalone S3 REST implementation for PHP 5.2.x (using CURL), that supports large file uploads and doesnï¿½t require PEAR.
 
 ### Notes
 
 * Not tested yet on HTTPS endpoint.
+
+### Installation
+
+1.  The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+    Add
+
+    ```
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/ekosuhariyadi/kilatstorage-s3-php-class.git"
+        }
+    ]
+    ```
+
+    Then
+
+    Either run
+
+    ```
+    php composer.phar require --prefer-dist codeimpact/kilatstorage-s3 "dev-master"
+    ```
+
+    or add
+
+    ```
+    "codeimpact/kilatstorage-s3": "dev-master"
+    ```
+
+    to the require section of your `composer.json` file.
 
 ### Usage
 
