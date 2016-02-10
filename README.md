@@ -13,6 +13,8 @@ This class is a standalone S3 REST implementation for PHP 5.2.x (using CURL), th
 
 This is fork from project https://github.com/CloudKilat/kilatstorage-s3-php-class
 as composer project, so can be easily integrated via composer
+including code update from project https://github.com/tpyo/amazon-s3-php-class
+
 ### Notes
 
 * Not tested yet on HTTPS endpoint.
